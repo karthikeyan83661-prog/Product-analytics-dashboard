@@ -11,16 +11,9 @@ A full-stack product analytics dashboard for administrators to monitor product p
 
 ## Dashboard Preview
 
-<<<<<<< HEAD
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light Mode](screenshots/dashboard.png) | ![Dark Mode](screenshots/dashboard-dark.png) |
-=======
-<img width="633" height="314" alt="Screenshot 2026-07-19 192920" src="https://github.com/user-attachments/assets/9e6d35f1-e052-4cc9-a8a9-0877307b8140" />
- 
-<img width="632" height="306" alt="Screenshot 2026-07-19 192957" src="https://github.com/user-attachments/assets/acc75cc8-7542-4f1f-8b2c-17ae798eb7c3" />
-
->>>>>>> c0df749770e47dd083a6774f8587633f82f2f313
+| <img alt="Light Mode" src="https://github.com/user-attachments/assets/9e6d35f1-e052-4cc9-a8a9-0877307b8140" /> | <img alt="Dark Mode" src="https://github.com/user-attachments/assets/acc75cc8-7542-4f1f-8b2c-17ae798eb7c3" /> |
 
 ## Features
 
