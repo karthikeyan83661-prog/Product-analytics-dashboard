@@ -1,0 +1,9 @@
+node_modules/
+dist/
+target/
+*.log
+data/
+.DS_Store
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
