@@ -18,7 +18,7 @@ A full-stack product analytics dashboard for monitoring product performance. Bui
 |-------|-----------|
 | Backend | Spring Boot 3.4.4, Java 25 |
 | Frontend | React 18, Vite 6, Tailwind CSS 3 |
-| Database | H2 (file-based, zero setup) |
+| Database | MongoDB |
 | API | RESTful (JSON) |
 
 ## Quick Start
@@ -26,6 +26,7 @@ A full-stack product analytics dashboard for monitoring product performance. Bui
 ### Prerequisites
 - Java 21+ ([Download](https://adoptium.net/))
 - Node.js 18+ ([Download](https://nodejs.org/))
+- MongoDB running on `localhost:27017`
 
 ### Run with one command
 
@@ -95,7 +96,7 @@ Upload the JAR to:
 - **Fly.io** — `fly launch && fly deploy`
 - **Heroku** — `heroku deploy:jar product-dashboard-1.0.0.jar`
 
-No database setup needed — H2 is embedded.
+Requires MongoDB running on `localhost:27017`. For cloud deploys, use [MongoDB Atlas](https://www.mongodb.com/atlas) and update `application.properties`.
 
 ## Project Structure
 

@@ -1,23 +1,21 @@
 package com.dashboard.model;
 
-import jakarta.persistence.*;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Positive;
 import java.time.LocalDateTime;
 
-@Entity
-@Table(name = "products")
+@Document(collection = "products")
 public class Product {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
 
     @NotBlank
     private String name;
 
-    @Column(columnDefinition = "TEXT")
     private String description;
 
     @Positive

@@ -1,20 +1,14 @@
 package com.dashboard.model;
 
-import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-@Entity
-@Table(name = "categories")
+@Document(collection = "categories")
 public class Category {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
-
-    @NotBlank
-    @Column(unique = true)
     private String name;
-
     private String description;
 
     public Category() {}
