@@ -11,8 +11,9 @@ A full-stack product analytics dashboard for administrators to monitor product p
 
 ## Dashboard Preview
 
-> _Add your dashboard screenshots here._  
-> _Run the project and capture screenshots of the stats cards, product table, and filter controls._
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![Light Mode](screenshots/dashboard.png) | ![Dark Mode](screenshots/dashboard-dark.png) |
 
 ## Features
 
