@@ -88,7 +88,7 @@ export default function ProductTable({ products, loading, error }) {
                   </span>
                 </td>
                 <td className="py-4 px-5 text-right">
-                  <span className="text-sm font-bold text-theme">${product.price.toFixed(2)}</span>
+                  <span className="text-sm font-bold text-theme">₹{(product.price).toLocaleString('en-IN')}</span>
                 </td>
                 <td className="py-4 px-5 text-right">
                   <span className={`text-sm font-bold ${
